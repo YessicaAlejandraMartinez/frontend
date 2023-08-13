@@ -1,0 +1,106 @@
+/* IMAGEN*/
+
+.contenedorImagen{
+    text-align: center;
+}
+
+.imagen{
+    max-height: 1300px;
+    max-width: 130px;
+}
+/* tipogrefia de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Special+Elite&family=Yeseva+One&display=swap');
+
+/* TITULO Y TEXTOS*/
+h1, .informacion{
+    background-color: #880699;
+    text-align: center;
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    
+    
+}
+
+.tituloSeccion {
+    background-color: #c67dcf;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dato, span{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dato{
+    font-style: italic;
+}
+
+.textoIndentado{
+    text-indent: 80px;
+}
+
+.lorem{
+    text-align: justify;
+}
+
+/* ICONOS*/
+.ico , .fa-brands{
+    font-weight: 20px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    top: 996px;
+    left: 772px;
+
+}
+footer{
+    background-color:#880699;
+    font-size: 30px;
+    background-size: 1%;
+
+
+}
+.foter{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    background-size: 2%;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* Estilos para los botones enlace*/
+
+.btnNeon{
+    background-position: left;
+    display: inline-block;
+    padding: 12 px 30px ;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Cookie', cursive;
+    font-size: 37px;
+    background-color: #880699;
+
+}
+
+.btnNeon:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition: 1s;
+}
+
+/* IMAGEN DE FONDO*/
+header{
+    background:URL("../img/th.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
